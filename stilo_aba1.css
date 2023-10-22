@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    max-width: 1000px;
+    margin: auto;
+    padding: 02%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+header{
+    background-color: #305473;
+    border-bottom: 0.5px solid #254559;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.fotinha{
+    color: #DFEDF2;
+    font-size: 21px;
+    text-align: center;
+}
+.menu{
+    width: 80%;
+    text-align: right;
+    margin-left: 11%;
+}
+.menu a{
+    color: #9ACDD9;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: right;
+    text-align: justify;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.menu a:hover{
+    color: #6B98BF;
+}
+
+
+
+
+section.corpo{
+    background-image: url('img/Des1gnon_Background_geometrico_06.jpg');
+    min-height: 1300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.corpo{
+    width: 100%;
+}
+
+.corpo h2{
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    color: #254559;
+}
+
+.corpo h1{
+    font-family: 'Dongle', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    border-top: #305473 0.5px solid;
+    border-bottom: #305473 0.5px solid;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #0B1C26;
+}
+.imagem_1{
+    vertical-align: middle;
+    height: 150px;
+    margin-left: 10%;
+    padding-top: 2%;
+}
+.texto_1{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    display: inline;
+    font-size: 20px;
+    color: #0000 solid;
+    text-align: justify;
+    margin-left: 40%;
+    margin-right: 10%;
+    float: right;
+    vertical-align: middle;
+}
+.texto_2{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 20px;
+    color: #0000 solid;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+.imagem_2{
+    margin-top: 2%;
+    margin-left: 32%;
+    margin-bottom: 6.5%;
+}
+.imagem_3{
+    vertical-align: middle;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.texto_3{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    display: inline;
+    font-size: 20px;
+    color: #0000 solid;
+    text-align: justify;
+    margin-left: 40%;
+    margin-right: 10%;
+    float: right;
+    vertical-align: middle;
+    margin-top: -25%;
+}
+.corpo p{
+    text-align: center;
+    margin-top: 2%;
+}
